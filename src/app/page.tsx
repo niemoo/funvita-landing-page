@@ -1,10 +1,16 @@
 import heroSection from '../../public/hero-section.png';
-import aboutSection from '../../public/about-content.jpg';
+import blobBg from '../../public/blob-bg.png';
 import meeting from '../../public/meeting.jpg';
 import { IoExtensionPuzzleOutline } from 'react-icons/io5';
 import { FaPeopleGroup } from 'react-icons/fa6';
 import { GiPerspectiveDiceSixFacesRandom } from 'react-icons/gi';
 import { Ri24HoursLine } from 'react-icons/ri';
+import { FaBusinessTime } from 'react-icons/fa6';
+import { MdOnDeviceTraining } from 'react-icons/md';
+import { FaHandHoldingUsd } from 'react-icons/fa';
+import { MdProductionQuantityLimits } from 'react-icons/md';
+import { GiPublicSpeaker } from 'react-icons/gi';
+import { FcCollaboration } from 'react-icons/fc';
 
 export default function Home() {
   return (
@@ -17,35 +23,88 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-zinc-100 w-full py-20 px-0">
+      <section className="bg-white py-20">
+        <h2 className="text-center text-4xl font-semibold">Layanan Kami</h2>
+        <hr className="md:w-1/5 w-full my-10 mx-auto" />
+        <div className="flex flex-wrap justify-center gap-20 max-w-screen-lg mx-auto">
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <FaBusinessTime className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">Konsultan Bisnis</h3>
+          </div>
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <MdOnDeviceTraining className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">
+              Training Digital <br /> Marketing
+            </h3>
+          </div>
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <FaHandHoldingUsd className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">
+              Training Digital <br /> Literasi Keuangan
+            </h3>
+          </div>
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <MdProductionQuantityLimits className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">Training Branding Produk</h3>
+          </div>
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <GiPublicSpeaker className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">Public Speaking</h3>
+          </div>
+          <div className="md:w-1/5 w-full relative">
+            <div className="relative">
+              <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
+              <FcCollaboration className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
+            </div>
+            <h3 className="text-center text-xl mt-5">Collaboration</h3>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full py-20 px-0">
         <h2 className="text-center text-3xl font-semibold">Kenapa Anda Harus Memilih Kami</h2>
         <hr className="md:w-1/5 w-full my-10 mx-auto" />
         <div className="max-w-screen-md mx-auto grid grid-cols-2 gap-5 px-5">
           <div className="md:flex bg-white border gap-5 border-black p-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl">
-            <IoExtensionPuzzleOutline className="mx-auto text-6xl w-16 flex-shrink-0" />
+            <IoExtensionPuzzleOutline className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800" />
             <div className="flex flex-col gap-5 md:text-left text-center">
-              <h3 className="text-lg font-semibold">Solusi Kreatif</h3>
+              <h3 className="text-lg font-semibold text-blue-800">Solusi Kreatif</h3>
               <p className="text-sm text-zinc-500">Kami akan melakukan upaya ekstra untuk memastikan kesejahteraan klien kami, jam kerja kami sesuai dengan kebutuhan Klien kami sejak kontak pertama kami.</p>
             </div>
           </div>
           <div className="md:flex bg-white border gap-5 border-black p-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl">
-            <FaPeopleGroup className="mx-auto text-6xl w-16 flex-shrink-0" />
+            <FaPeopleGroup className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800" />
             <div className="flex flex-col gap-5 md:text-left text-center">
-              <h3 className="text-lg font-semibold">Tim Profesional</h3>
+              <h3 className="text-lg font-semibold text-blue-800">Tim Profesional</h3>
               <p className="text-sm text-zinc-500">Dengan keahlian yang mendalam, kami berkomitmen untuk memberikan solusi terbaik dan hasil yang memukau untuk meningkatkan daya saing dan keberhasilan bisnismu.</p>
             </div>
           </div>
           <div className="md:flex bg-white border gap-5 border-black p-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl">
-            <GiPerspectiveDiceSixFacesRandom className="mx-auto text-6xl w-16 flex-shrink-0" />
+            <GiPerspectiveDiceSixFacesRandom className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800" />
             <div className="flex flex-col gap-5 md:text-left text-center">
-              <h3 className="text-lg font-semibold">Pendekatan Beragam</h3>
+              <h3 className="text-lg font-semibold text-blue-800">Pendekatan Beragam</h3>
               <p className="text-sm text-zinc-500">Kami memiliki banyak pendekatan untuk meningkatkan bisnis Anda.</p>
             </div>
           </div>
           <div className="md:flex bg-white border gap-5 border-black p-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl">
-            <Ri24HoursLine className="mx-auto text-6xl w-16 flex-shrink-0" />
+            <Ri24HoursLine className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800" />
             <div className="flex flex-col gap-5 md:text-left text-center">
-              <h3 className="text-lg font-semibold">Dukungan Ahli 24/7</h3>
+              <h3 className="text-lg font-semibold text-blue-800">Dukungan Ahli 24/7</h3>
               <p className="text-sm text-zinc-500">Pakar kami selalu tersedia melalui telepon dan online. Obrolan web tersedia mulai pukul 08.00 hingga 20.00 atau Anda dapat menghubungi kami secara gratis.</p>
             </div>
           </div>
