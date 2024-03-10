@@ -8,15 +8,19 @@ export default function Navbar() {
         <Link href="/">
           <img src={funvitaLogoBlue.src} alt="Funvita Logo" className="text-sm w-20 cursor-pointer" />
         </Link>
-        <li className="flex gap-10 items-center md:flex hidden">
+        <li className="gap-10 items-center md:flex hidden">
           <Link href="/" className="py-2 px-3 rounded-lg hover:bg-blue-800 hover:text-white transition-all duration-300">
             Beranda
           </Link>
           <Link href="/layanan" className="py-2 px-3 rounded-lg hover:bg-blue-800 hover:text-white transition-all duration-300">
             Layanan
           </Link>
-          <ul>Tentang Kami</ul>
-          <ul>Kontak Kami</ul>
+          <Link href="/about" className="py-2 px-3 rounded-lg hover:bg-blue-800 hover:text-white transition-all duration-300">
+            Tentang Kami
+          </Link>
+          <Link href="/contact" className="py-2 px-3 rounded-lg hover:bg-blue-800 hover:text-white transition-all duration-300">
+            Kontak Kami
+          </Link>
         </li>
       </div>
     </nav>

@@ -27,14 +27,14 @@ export default function Home() {
         <h2 className="text-center text-4xl font-semibold">Layanan Kami</h2>
         <hr className="md:w-1/5 w-full my-10 mx-auto" />
         <div className="flex flex-wrap justify-center gap-20 max-w-screen-lg mx-auto">
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <FaBusinessTime className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
             </div>
             <h3 className="text-center text-xl mt-5">Konsultan Bisnis</h3>
           </div>
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <MdOnDeviceTraining className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
@@ -43,7 +43,7 @@ export default function Home() {
               Training Digital <br /> Marketing
             </h3>
           </div>
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <FaHandHoldingUsd className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
@@ -52,21 +52,21 @@ export default function Home() {
               Training Digital <br /> Literasi Keuangan
             </h3>
           </div>
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <MdProductionQuantityLimits className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
             </div>
             <h3 className="text-center text-xl mt-5">Training Branding Produk</h3>
           </div>
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <GiPublicSpeaker className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
             </div>
             <h3 className="text-center text-xl mt-5">Public Speaking</h3>
           </div>
-          <div className="md:w-1/5 w-full relative">
+          <div className="md:w-1/4 w-full relative">
             <div className="relative">
               <img src={blobBg.src} alt="" className="block mx-auto relative z-20" style={{ maxWidth: '100%', height: 'auto', position: 'relative' }} />
               <FcCollaboration className="mx-auto text-6xl w-16 flex-shrink-0 text-blue-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110 z-30" />
