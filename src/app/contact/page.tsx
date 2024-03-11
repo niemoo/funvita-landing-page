@@ -10,7 +10,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 export default function Contact() {
   return (
-    <div className="md:flex justify-between max-w-screen-xl mx-auto gap-20 py-20 md:px-0 px-5">
+    <main className="md:flex justify-between max-w-screen-xl mx-auto gap-20 py-20 px-5">
       <div className="md:w-2/3 w-full">
         <h3 className="text-2xl font-medium text-blue-800">Sampaikan pesanmu kepada kami!</h3>
         <form className="mt-10">
@@ -73,6 +73,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 
 export default function Navbar() {
   return (
-    <nav className="bg-white">
+    <nav className="bg-white shadow-lg">
       <div className="flex justify-between max-w-screen-xl mx-auto px-5">
         <Link href="/">
           <img src={funvitaLogoBlue.src} alt="Funvita Logo" className="text-sm w-20 cursor-pointer" />

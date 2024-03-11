@@ -11,6 +11,7 @@ import { FaHandHoldingUsd } from 'react-icons/fa';
 import { MdProductionQuantityLimits } from 'react-icons/md';
 import { GiPublicSpeaker } from 'react-icons/gi';
 import { FcCollaboration } from 'react-icons/fc';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
         <div className="absolute inset-0 z-0 bg-black opacity-50"></div>
         <div className="z-10 flex flex-col justify-center items-center md:w-1/2 gap-7 max-w-screen-xl mx-auto">
           <h1 className="text-5xl font-bold antialiased leading-tight text-center text-white">SOLUSI PROFESIONAL UNTUK BISNIS ANDA</h1>
-          <a className="p-3 w-fit border border-transparent rounded-xl bg-blue-800 text-white group hover:bg-white hover:text-blue-800 hover:border-blue-800 cursor-pointer transition-all duration-300">MULAI PERJALANAN BISNIS ANDA</a>
+          <Link href="/contact" className="p-3 w-fit border border-transparent rounded-xl bg-blue-800 text-white group hover:bg-white hover:text-blue-800 hover:border-blue-800 transition-all duration-300">
+            MULAI PERJALANAN BISNIS ANDA
+          </Link>
         </div>
       </section>
 
@@ -76,7 +79,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-20 px-0">
+      <section className="w-full py-20 px-0 bg-zinc-100">
         <h2 className="text-center text-3xl font-semibold">Kenapa Anda Harus Memilih Kami</h2>
         <hr className="md:w-1/5 w-full my-10 mx-auto" />
         <div className="max-w-screen-md mx-auto grid grid-cols-2 gap-5 px-5">

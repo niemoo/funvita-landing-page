@@ -11,12 +11,12 @@ import { FcCollaboration } from 'react-icons/fc';
 
 export default function Layanan() {
   return (
-    <div className="bg-white pb-20">
+    <main className="bg-white pb-20">
       <div className="bg-zinc-100 text-center py-20 px-5">
         <p className="text-blue-400 text-lg font-semibold mb-2">Layanan</p>
         <h1 className="text-blue-900 text-5xl font-semibold">Layanan Utama Konsulting Kami</h1>
       </div>
-      <div className="md:flex md:flex-wrap max-w-screen-xl mx-auto md:p-0 p-5">
+      <div className="md:flex md:flex-wrap max-w-screen-xl mx-auto px-5">
         <div className="flex gap-5 items-center w-1/2 mt-14">
           <img src={layanan1.src} alt="" />
           <div className="flex flex-col gap-10">
@@ -72,6 +72,6 @@ export default function Layanan() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
